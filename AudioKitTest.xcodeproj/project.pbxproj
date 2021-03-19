@@ -50,6 +50,7 @@
 		C558F16925E064950068D4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C558F16825E064950068D4DE /* Assets.xcassets */; };
 		C558F16C25E064950068D4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C558F16A25E064950068D4DE /* LaunchScreen.storyboard */; };
 		C558F17825E06E090068D4DE /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F17725E06E090068D4DE /* AudioController.swift */; };
+		C563DE8B260548FB002022E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C563DE8A260548FB002022E4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,7 @@
 		C558F16B25E064950068D4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C558F16D25E064950068D4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C558F17725E06E090068D4DE /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		C563DE8A260548FB002022E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F942AB2576B0944EA4104A61 /* Pods-AudioKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKitTest.release.xcconfig"; path = "Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -268,6 +270,7 @@
 		C558F15E25E064940068D4DE /* AudioKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				C563DE8A260548FB002022E4 /* GoogleService-Info.plist */,
 				C5332ABD2605300B00842C66 /* Model */,
 				C5332ABF260530F800842C66 /* View */,
 				C5332AC02605311A00842C66 /* Controller */,
@@ -306,6 +309,7 @@
 				C558F15825E064940068D4DE /* Sources */,
 				C558F15925E064940068D4DE /* Frameworks */,
 				C558F15A25E064940068D4DE /* Resources */,
+				224DDA64D1CC3DD5ADC404E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,6 +359,7 @@
 			files = (
 				C5332A762604B46800842C66 /* ScrollingScene.sks in Resources */,
 				C558F16C25E064950068D4DE /* LaunchScreen.storyboard in Resources */,
+				C563DE8B260548FB002022E4 /* GoogleService-Info.plist in Resources */,
 				C558F16925E064950068D4DE /* Assets.xcassets in Resources */,
 				C5332A7E2604B46800842C66 /* FrontPageScene.sks in Resources */,
 				C5332AAC2604B56600842C66 /* Info.html in Resources */,
@@ -387,6 +392,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		224DDA64D1CC3DD5ADC404E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

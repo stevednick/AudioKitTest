@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAnalytics
 
 enum Game: Int {
     case standard
@@ -47,7 +48,7 @@ class FrontPageMenuViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let game = Game(rawValue: indexPath.row) else {return}
-        
+        Analytics.logEvent("gameStarted", parameters: ["gameType": game])
         dismiss(animated: true, completion: {
             self.didTapMenuType?(game)
         })
