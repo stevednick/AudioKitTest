@@ -242,11 +242,11 @@ class RightNoteScene: SKScene { // Sort out how data is dealt with in this scene
                 feedbackLabel.text = ""
             }
         }
-        if shakeCooldown > 0{
+        if shakeCooldown > 0 {
             viewController.shakeCamera(shake: shakeCooldown) // Just for testing
         }
         displayPlayedNote()
-        viewController.timerText.text = noteChecker.lis.getAmplitude().forDisplay()
+        viewController.timerText.text = noteChecker.lis.amplitude.forDisplay()
 
     }
     

@@ -40,15 +40,13 @@
 		C5332A9D2604B51200842C66 /* InstrumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A972604B51100842C66 /* InstrumentStore.swift */; };
 		C5332A9F2604B51200842C66 /* NoteChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A992604B51100842C66 /* NoteChecker.swift */; };
 		C5332AA02604B51200842C66 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A9A2604B51100842C66 /* NoteController.swift */; };
-		C5332AA12604B51200842C66 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A9B2604B51200842C66 /* Menu.swift */; };
 		C5332AA52604B54D00842C66 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332AA32604B54D00842C66 /* Tools.swift */; };
 		C5332AA92604B55600842C66 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332AA82604B55600842C66 /* SlideInTransition.swift */; };
-		C5332AAC2604B56600842C66 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C5332AAB2604B56600842C66 /* BullsEye.html */; };
+		C5332AAC2604B56600842C66 /* Info.html in Resources */ = {isa = PBXBuildFile; fileRef = C5332AAB2604B56600842C66 /* Info.html */; };
 		C5332AB12604B57300842C66 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332AAF2604B57300842C66 /* Data.swift */; };
 		C5332AB72604B6AC00842C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5332AB62604B6AC00842C66 /* Main.storyboard */; };
 		C558F16025E064940068D4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F15F25E064940068D4DE /* AppDelegate.swift */; };
 		C558F16225E064940068D4DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F16125E064940068D4DE /* SceneDelegate.swift */; };
-		C558F16425E064940068D4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F16325E064940068D4DE /* ViewController.swift */; };
 		C558F16925E064950068D4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C558F16825E064950068D4DE /* Assets.xcassets */; };
 		C558F16C25E064950068D4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C558F16A25E064950068D4DE /* LaunchScreen.storyboard */; };
 		C558F17825E06E090068D4DE /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F17725E06E090068D4DE /* AudioController.swift */; };
@@ -89,16 +87,14 @@
 		C5332A972604B51100842C66 /* InstrumentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentStore.swift; sourceTree = "<group>"; };
 		C5332A992604B51100842C66 /* NoteChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteChecker.swift; sourceTree = "<group>"; };
 		C5332A9A2604B51100842C66 /* NoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
-		C5332A9B2604B51200842C66 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		C5332AA32604B54D00842C66 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		C5332AA82604B55600842C66 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
-		C5332AAB2604B56600842C66 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		C5332AAB2604B56600842C66 /* Info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Info.html; sourceTree = "<group>"; };
 		C5332AAF2604B57300842C66 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C5332AB62604B6AC00842C66 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C558F15C25E064940068D4DE /* AudioKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C558F15F25E064940068D4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C558F16125E064940068D4DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C558F16325E064940068D4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C558F16825E064950068D4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C558F16B25E064950068D4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C558F16D25E064950068D4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -208,6 +204,49 @@
 			path = Sprites;
 			sourceTree = "<group>";
 		};
+		C5332ABD2605300B00842C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5332AA82604B55600842C66 /* SlideInTransition.swift */,
+				C5332AA32604B54D00842C66 /* Tools.swift */,
+				C5332A992604B51100842C66 /* NoteChecker.swift */,
+				C5332A972604B51100842C66 /* InstrumentStore.swift */,
+				C5332AAF2604B57300842C66 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5332ABE2605309900842C66 /* Other Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				C558F15F25E064940068D4DE /* AppDelegate.swift */,
+				C5332AAB2604B56600842C66 /* Info.html */,
+				C558F16A25E064950068D4DE /* LaunchScreen.storyboard */,
+				C558F16125E064940068D4DE /* SceneDelegate.swift */,
+				C5332A962604B51000842C66 /* Listener.swift */,
+			);
+			path = "Other Stuff";
+			sourceTree = "<group>";
+		};
+		C5332ABF260530F800842C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5332AB62604B6AC00842C66 /* Main.storyboard */,
+				C5332A832604B48800842C66 /* Sprites */,
+				C5332A4D2604B46800842C66 /* Scenes */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5332AC02605311A00842C66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C558F17725E06E090068D4DE /* AudioController.swift */,
+				C5332A9A2604B51100842C66 /* NoteController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C558F15325E064940068D4DE = {
 			isa = PBXGroup;
 			children = (
@@ -229,25 +268,12 @@
 		C558F15E25E064940068D4DE /* AudioKitTest */ = {
 			isa = PBXGroup;
 			children = (
-				C5332A832604B48800842C66 /* Sprites */,
-				C5332A4D2604B46800842C66 /* Scenes */,
-				C558F15F25E064940068D4DE /* AppDelegate.swift */,
-				C5332AAF2604B57300842C66 /* Data.swift */,
-				C5332AB62604B6AC00842C66 /* Main.storyboard */,
-				C558F16125E064940068D4DE /* SceneDelegate.swift */,
-				C558F16325E064940068D4DE /* ViewController.swift */,
-				C5332A972604B51100842C66 /* InstrumentStore.swift */,
-				C5332A962604B51000842C66 /* Listener.swift */,
-				C5332A9B2604B51200842C66 /* Menu.swift */,
-				C5332A992604B51100842C66 /* NoteChecker.swift */,
-				C5332A9A2604B51100842C66 /* NoteController.swift */,
-				C5332AA82604B55600842C66 /* SlideInTransition.swift */,
-				C5332AA32604B54D00842C66 /* Tools.swift */,
+				C5332ABD2605300B00842C66 /* Model */,
+				C5332ABF260530F800842C66 /* View */,
+				C5332AC02605311A00842C66 /* Controller */,
 				C558F16825E064950068D4DE /* Assets.xcassets */,
-				C558F16A25E064950068D4DE /* LaunchScreen.storyboard */,
 				C558F16D25E064950068D4DE /* Info.plist */,
-				C558F17725E06E090068D4DE /* AudioController.swift */,
-				C5332AAB2604B56600842C66 /* BullsEye.html */,
+				C5332ABE2605309900842C66 /* Other Stuff */,
 			);
 			path = AudioKitTest;
 			sourceTree = "<group>";
@@ -331,7 +357,7 @@
 				C558F16C25E064950068D4DE /* LaunchScreen.storyboard in Resources */,
 				C558F16925E064950068D4DE /* Assets.xcassets in Resources */,
 				C5332A7E2604B46800842C66 /* FrontPageScene.sks in Resources */,
-				C5332AAC2604B56600842C66 /* BullsEye.html in Resources */,
+				C5332AAC2604B56600842C66 /* Info.html in Resources */,
 				C5332AB72604B6AC00842C66 /* Main.storyboard in Resources */,
 				C5332A792604B46800842C66 /* LongNoteScene.sks in Resources */,
 				C5332A702604B46800842C66 /* RightNoteScene.sks in Resources */,
@@ -382,7 +408,6 @@
 				C5332A902604B48900842C66 /* NoteHolder.swift in Sources */,
 				C5332A782604B46800842C66 /* LongNoteViewController.swift in Sources */,
 				C5332A912604B48900842C66 /* TickHolder.swift in Sources */,
-				C558F16425E064940068D4DE /* ViewController.swift in Sources */,
 				C5332A8E2604B48900842C66 /* BarHolder.swift in Sources */,
 				C5332A8F2604B48900842C66 /* BouncyBall.swift in Sources */,
 				C5332A6D2604B46800842C66 /* SettingsViewController.swift in Sources */,
@@ -401,7 +426,6 @@
 				C5332A6F2604B46800842C66 /* RightNoteScene.swift in Sources */,
 				C5332AA02604B51200842C66 /* NoteController.swift in Sources */,
 				C5332A932604B48900842C66 /* StaveHolder.swift in Sources */,
-				C5332AA12604B51200842C66 /* Menu.swift in Sources */,
 				C5332AB12604B57300842C66 /* Data.swift in Sources */,
 				C5332A8C2604B48800842C66 /* ClefHolder.swift in Sources */,
 				C558F16225E064940068D4DE /* SceneDelegate.swift in Sources */,

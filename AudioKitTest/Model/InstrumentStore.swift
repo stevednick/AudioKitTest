@@ -16,7 +16,8 @@ struct Instrument{
     var preferredClef: Int
 }
 
-class InstrumentStore{
+class InstrumentStore{ // Could this be stored as a JSON? Yes it could.
+    
     
     let data = UserDefaults.standard
     

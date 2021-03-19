@@ -21,8 +21,12 @@ struct AudioController {
     var AFrequency = 440.0
     var transpositionAdjustment = 0
     
+    var amplitude: Double {
+        return tracker.amplitude
+    }
+    
     var aboveMinimumAmplitude: Bool {
-        return tracker.amplitude > 0.07
+        return amplitude > 0.07
     }
     
     var currentNote: Int {
@@ -88,10 +92,10 @@ struct AudioController {
 //        return tracker.amplitude > 0.07
 //    }
     
-    func getAmplitude() -> Double{
-        return tracker.amplitude
-    }
-    
+//    func getAmplitude() -> Double{
+//        return tracker.amplitude
+//    }
+//
     func getNoteNumber(freq: Double) -> Double {  // computated property this
             var f = freq
             if f <= 0.1{

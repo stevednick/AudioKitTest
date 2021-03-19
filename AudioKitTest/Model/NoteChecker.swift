@@ -14,8 +14,6 @@ struct NoteWithDuration{
     var intonation: Double = 0.0
 }
 
-
-
 class NoteChecker{
     
     var forgiveness = 3

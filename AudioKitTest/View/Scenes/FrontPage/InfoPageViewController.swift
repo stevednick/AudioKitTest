@@ -18,7 +18,7 @@ class InfoPageViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    if let htmlPath = Bundle.main.path(forResource: "BullsEye", ofType: "html") {
+    if let htmlPath = Bundle.main.path(forResource: "Info", ofType: "html") {
       let url = URL(fileURLWithPath: htmlPath)
       let request = URLRequest(url: url)
       webView.load(request)
