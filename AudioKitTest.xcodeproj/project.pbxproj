@@ -7,23 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28AF0FD8EBE3519E0F1B79AF /* Pods_AudioKitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8890D65FF20F615FE924E1 /* Pods_AudioKitTest.framework */; };
+		C5332A6B2604B46800842C66 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A4F2604B46800842C66 /* PickerViewController.swift */; };
+		C5332A6C2604B46800842C66 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A502604B46800842C66 /* OptionsViewController.swift */; };
+		C5332A6D2604B46800842C66 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A512604B46800842C66 /* SettingsViewController.swift */; };
+		C5332A6E2604B46800842C66 /* RightNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A532604B46800842C66 /* RightNoteViewController.swift */; };
+		C5332A6F2604B46800842C66 /* RightNoteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A542604B46800842C66 /* RightNoteScene.swift */; };
+		C5332A702604B46800842C66 /* RightNoteScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5332A552604B46800842C66 /* RightNoteScene.sks */; };
+		C5332A742604B46800842C66 /* ScrollingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A5A2604B46800842C66 /* ScrollingScene.swift */; };
+		C5332A752604B46800842C66 /* ScrollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A5B2604B46800842C66 /* ScrollingViewController.swift */; };
+		C5332A762604B46800842C66 /* ScrollingScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5332A5C2604B46800842C66 /* ScrollingScene.sks */; };
+		C5332A772604B46800842C66 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A5D2604B46800842C66 /* ScoreboardViewController.swift */; };
+		C5332A782604B46800842C66 /* LongNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A5F2604B46800842C66 /* LongNoteViewController.swift */; };
+		C5332A792604B46800842C66 /* LongNoteScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5332A602604B46800842C66 /* LongNoteScene.sks */; };
+		C5332A7A2604B46800842C66 /* LongNoteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A612604B46800842C66 /* LongNoteScene.swift */; };
+		C5332A7B2604B46800842C66 /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A632604B46800842C66 /* FrontPageViewController.swift */; };
+		C5332A7C2604B46800842C66 /* FrontPagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A642604B46800842C66 /* FrontPagePickerViewController.swift */; };
+		C5332A7D2604B46800842C66 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A652604B46800842C66 /* InfoPageViewController.swift */; };
+		C5332A7E2604B46800842C66 /* FrontPageScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5332A662604B46800842C66 /* FrontPageScene.sks */; };
+		C5332A7F2604B46800842C66 /* FrontPageMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A672604B46800842C66 /* FrontPageMenuViewController.swift */; };
+		C5332A802604B46800842C66 /* FrontPageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A682604B46800842C66 /* FrontPageScene.swift */; };
+		C5332A812604B46800842C66 /* NoteSelectioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A6A2604B46800842C66 /* NoteSelectioViewController.swift */; };
+		C5332A8C2604B48800842C66 /* ClefHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A842604B48800842C66 /* ClefHolder.swift */; };
+		C5332A8D2604B48800842C66 /* BarLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A852604B48800842C66 /* BarLine.swift */; };
+		C5332A8E2604B48900842C66 /* BarHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A862604B48800842C66 /* BarHolder.swift */; };
+		C5332A8F2604B48900842C66 /* BouncyBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A872604B48800842C66 /* BouncyBall.swift */; };
+		C5332A902604B48900842C66 /* NoteHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A882604B48800842C66 /* NoteHolder.swift */; };
+		C5332A912604B48900842C66 /* TickHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A892604B48800842C66 /* TickHolder.swift */; };
+		C5332A922604B48900842C66 /* MinimRestHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A8A2604B48800842C66 /* MinimRestHolder.swift */; };
+		C5332A932604B48900842C66 /* StaveHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A8B2604B48800842C66 /* StaveHolder.swift */; };
+		C5332A9C2604B51200842C66 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A962604B51000842C66 /* Listener.swift */; };
+		C5332A9D2604B51200842C66 /* InstrumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A972604B51100842C66 /* InstrumentStore.swift */; };
+		C5332A9F2604B51200842C66 /* NoteChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A992604B51100842C66 /* NoteChecker.swift */; };
+		C5332AA02604B51200842C66 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A9A2604B51100842C66 /* NoteController.swift */; };
+		C5332AA12604B51200842C66 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332A9B2604B51200842C66 /* Menu.swift */; };
+		C5332AA52604B54D00842C66 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332AA32604B54D00842C66 /* Tools.swift */; };
+		C5332AA92604B55600842C66 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332AA82604B55600842C66 /* SlideInTransition.swift */; };
+		C5332AAC2604B56600842C66 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C5332AAB2604B56600842C66 /* BullsEye.html */; };
+		C5332AB12604B57300842C66 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332AAF2604B57300842C66 /* Data.swift */; };
+		C5332AB72604B6AC00842C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5332AB62604B6AC00842C66 /* Main.storyboard */; };
 		C558F16025E064940068D4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F15F25E064940068D4DE /* AppDelegate.swift */; };
 		C558F16225E064940068D4DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F16125E064940068D4DE /* SceneDelegate.swift */; };
 		C558F16425E064940068D4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F16325E064940068D4DE /* ViewController.swift */; };
-		C558F16725E064940068D4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C558F16525E064940068D4DE /* Main.storyboard */; };
 		C558F16925E064950068D4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C558F16825E064950068D4DE /* Assets.xcassets */; };
 		C558F16C25E064950068D4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C558F16A25E064950068D4DE /* LaunchScreen.storyboard */; };
+		C558F17825E06E090068D4DE /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F17725E06E090068D4DE /* AudioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66DD8E41AB5BD3B7574228CE /* Pods-AudioKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKitTest.debug.xcconfig"; path = "Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8890D65FF20F615FE924E1 /* Pods_AudioKitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioKitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5332A4F2604B46800842C66 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		C5332A502604B46800842C66 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		C5332A512604B46800842C66 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C5332A532604B46800842C66 /* RightNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightNoteViewController.swift; sourceTree = "<group>"; };
+		C5332A542604B46800842C66 /* RightNoteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightNoteScene.swift; sourceTree = "<group>"; };
+		C5332A552604B46800842C66 /* RightNoteScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RightNoteScene.sks; sourceTree = "<group>"; };
+		C5332A5A2604B46800842C66 /* ScrollingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingScene.swift; sourceTree = "<group>"; };
+		C5332A5B2604B46800842C66 /* ScrollingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingViewController.swift; sourceTree = "<group>"; };
+		C5332A5C2604B46800842C66 /* ScrollingScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ScrollingScene.sks; sourceTree = "<group>"; };
+		C5332A5D2604B46800842C66 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
+		C5332A5F2604B46800842C66 /* LongNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongNoteViewController.swift; sourceTree = "<group>"; };
+		C5332A602604B46800842C66 /* LongNoteScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LongNoteScene.sks; sourceTree = "<group>"; };
+		C5332A612604B46800842C66 /* LongNoteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongNoteScene.swift; sourceTree = "<group>"; };
+		C5332A632604B46800842C66 /* FrontPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
+		C5332A642604B46800842C66 /* FrontPagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPagePickerViewController.swift; sourceTree = "<group>"; };
+		C5332A652604B46800842C66 /* InfoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
+		C5332A662604B46800842C66 /* FrontPageScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FrontPageScene.sks; sourceTree = "<group>"; };
+		C5332A672604B46800842C66 /* FrontPageMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageMenuViewController.swift; sourceTree = "<group>"; };
+		C5332A682604B46800842C66 /* FrontPageScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageScene.swift; sourceTree = "<group>"; };
+		C5332A6A2604B46800842C66 /* NoteSelectioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteSelectioViewController.swift; sourceTree = "<group>"; };
+		C5332A842604B48800842C66 /* ClefHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClefHolder.swift; sourceTree = "<group>"; };
+		C5332A852604B48800842C66 /* BarLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarLine.swift; sourceTree = "<group>"; };
+		C5332A862604B48800842C66 /* BarHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarHolder.swift; sourceTree = "<group>"; };
+		C5332A872604B48800842C66 /* BouncyBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncyBall.swift; sourceTree = "<group>"; };
+		C5332A882604B48800842C66 /* NoteHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteHolder.swift; sourceTree = "<group>"; };
+		C5332A892604B48800842C66 /* TickHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickHolder.swift; sourceTree = "<group>"; };
+		C5332A8A2604B48800842C66 /* MinimRestHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimRestHolder.swift; sourceTree = "<group>"; };
+		C5332A8B2604B48800842C66 /* StaveHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaveHolder.swift; sourceTree = "<group>"; };
+		C5332A962604B51000842C66 /* Listener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		C5332A972604B51100842C66 /* InstrumentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentStore.swift; sourceTree = "<group>"; };
+		C5332A992604B51100842C66 /* NoteChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteChecker.swift; sourceTree = "<group>"; };
+		C5332A9A2604B51100842C66 /* NoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
+		C5332A9B2604B51200842C66 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C5332AA32604B54D00842C66 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		C5332AA82604B55600842C66 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		C5332AAB2604B56600842C66 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		C5332AAF2604B57300842C66 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C5332AB62604B6AC00842C66 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C558F15C25E064940068D4DE /* AudioKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C558F15F25E064940068D4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C558F16125E064940068D4DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C558F16325E064940068D4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C558F16625E064940068D4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C558F16825E064950068D4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C558F16B25E064950068D4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C558F16D25E064950068D4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C558F17725E06E090068D4DE /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		F942AB2576B0944EA4104A61 /* Pods-AudioKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKitTest.release.xcconfig"; path = "Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +111,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AF0FD8EBE3519E0F1B79AF /* Pods_AudioKitTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5332A4D2604B46800842C66 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A4E2604B46800842C66 /* Settings */,
+				C5332A522604B46800842C66 /* RightNoteScene */,
+				C5332A592604B46800842C66 /* Scrolling */,
+				C5332A5E2604B46800842C66 /* LongNote */,
+				C5332A622604B46800842C66 /* FrontPage */,
+				C5332A692604B46800842C66 /* NoteSelectionMenu */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C5332A4E2604B46800842C66 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A4F2604B46800842C66 /* PickerViewController.swift */,
+				C5332A502604B46800842C66 /* OptionsViewController.swift */,
+				C5332A512604B46800842C66 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C5332A522604B46800842C66 /* RightNoteScene */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A532604B46800842C66 /* RightNoteViewController.swift */,
+				C5332A542604B46800842C66 /* RightNoteScene.swift */,
+				C5332A552604B46800842C66 /* RightNoteScene.sks */,
+			);
+			path = RightNoteScene;
+			sourceTree = "<group>";
+		};
+		C5332A592604B46800842C66 /* Scrolling */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A5A2604B46800842C66 /* ScrollingScene.swift */,
+				C5332A5B2604B46800842C66 /* ScrollingViewController.swift */,
+				C5332A5C2604B46800842C66 /* ScrollingScene.sks */,
+				C5332A5D2604B46800842C66 /* ScoreboardViewController.swift */,
+			);
+			path = Scrolling;
+			sourceTree = "<group>";
+		};
+		C5332A5E2604B46800842C66 /* LongNote */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A5F2604B46800842C66 /* LongNoteViewController.swift */,
+				C5332A602604B46800842C66 /* LongNoteScene.sks */,
+				C5332A612604B46800842C66 /* LongNoteScene.swift */,
+			);
+			path = LongNote;
+			sourceTree = "<group>";
+		};
+		C5332A622604B46800842C66 /* FrontPage */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A632604B46800842C66 /* FrontPageViewController.swift */,
+				C5332A642604B46800842C66 /* FrontPagePickerViewController.swift */,
+				C5332A652604B46800842C66 /* InfoPageViewController.swift */,
+				C5332A662604B46800842C66 /* FrontPageScene.sks */,
+				C5332A672604B46800842C66 /* FrontPageMenuViewController.swift */,
+				C5332A682604B46800842C66 /* FrontPageScene.swift */,
+			);
+			path = FrontPage;
+			sourceTree = "<group>";
+		};
+		C5332A692604B46800842C66 /* NoteSelectionMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A6A2604B46800842C66 /* NoteSelectioViewController.swift */,
+			);
+			path = NoteSelectionMenu;
+			sourceTree = "<group>";
+		};
+		C5332A832604B48800842C66 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				C5332A842604B48800842C66 /* ClefHolder.swift */,
+				C5332A852604B48800842C66 /* BarLine.swift */,
+				C5332A862604B48800842C66 /* BarHolder.swift */,
+				C5332A872604B48800842C66 /* BouncyBall.swift */,
+				C5332A882604B48800842C66 /* NoteHolder.swift */,
+				C5332A892604B48800842C66 /* TickHolder.swift */,
+				C5332A8A2604B48800842C66 /* MinimRestHolder.swift */,
+				C5332A8B2604B48800842C66 /* StaveHolder.swift */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
 		C558F15325E064940068D4DE = {
 			isa = PBXGroup;
 			children = (
 				C558F15E25E064940068D4DE /* AudioKitTest */,
 				C558F15D25E064940068D4DE /* Products */,
+				F36A7DD15B9AA5C1C3C7E623 /* Pods */,
+				D7562B06984FDB732FAE8B2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +229,44 @@
 		C558F15E25E064940068D4DE /* AudioKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5332A832604B48800842C66 /* Sprites */,
+				C5332A4D2604B46800842C66 /* Scenes */,
 				C558F15F25E064940068D4DE /* AppDelegate.swift */,
+				C5332AAF2604B57300842C66 /* Data.swift */,
+				C5332AB62604B6AC00842C66 /* Main.storyboard */,
 				C558F16125E064940068D4DE /* SceneDelegate.swift */,
 				C558F16325E064940068D4DE /* ViewController.swift */,
-				C558F16525E064940068D4DE /* Main.storyboard */,
+				C5332A972604B51100842C66 /* InstrumentStore.swift */,
+				C5332A962604B51000842C66 /* Listener.swift */,
+				C5332A9B2604B51200842C66 /* Menu.swift */,
+				C5332A992604B51100842C66 /* NoteChecker.swift */,
+				C5332A9A2604B51100842C66 /* NoteController.swift */,
+				C5332AA82604B55600842C66 /* SlideInTransition.swift */,
+				C5332AA32604B54D00842C66 /* Tools.swift */,
 				C558F16825E064950068D4DE /* Assets.xcassets */,
 				C558F16A25E064950068D4DE /* LaunchScreen.storyboard */,
 				C558F16D25E064950068D4DE /* Info.plist */,
+				C558F17725E06E090068D4DE /* AudioController.swift */,
+				C5332AAB2604B56600842C66 /* BullsEye.html */,
 			);
 			path = AudioKitTest;
+			sourceTree = "<group>";
+		};
+		D7562B06984FDB732FAE8B2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A8890D65FF20F615FE924E1 /* Pods_AudioKitTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F36A7DD15B9AA5C1C3C7E623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66DD8E41AB5BD3B7574228CE /* Pods-AudioKitTest.debug.xcconfig */,
+				F942AB2576B0944EA4104A61 /* Pods-AudioKitTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C558F17025E064950068D4DE /* Build configuration list for PBXNativeTarget "AudioKitTest" */;
 			buildPhases = (
+				107DEFFD137D051116F249A2 /* [CP] Check Pods Manifest.lock */,
 				C558F15825E064940068D4DE /* Sources */,
 				C558F15925E064940068D4DE /* Frameworks */,
 				C558F15A25E064940068D4DE /* Resources */,
@@ -124,36 +327,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5332A762604B46800842C66 /* ScrollingScene.sks in Resources */,
 				C558F16C25E064950068D4DE /* LaunchScreen.storyboard in Resources */,
 				C558F16925E064950068D4DE /* Assets.xcassets in Resources */,
-				C558F16725E064940068D4DE /* Main.storyboard in Resources */,
+				C5332A7E2604B46800842C66 /* FrontPageScene.sks in Resources */,
+				C5332AAC2604B56600842C66 /* BullsEye.html in Resources */,
+				C5332AB72604B6AC00842C66 /* Main.storyboard in Resources */,
+				C5332A792604B46800842C66 /* LongNoteScene.sks in Resources */,
+				C5332A702604B46800842C66 /* RightNoteScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		107DEFFD137D051116F249A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioKitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C558F15825E064940068D4DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5332A772604B46800842C66 /* ScoreboardViewController.swift in Sources */,
+				C5332A7C2604B46800842C66 /* FrontPagePickerViewController.swift in Sources */,
+				C5332A7F2604B46800842C66 /* FrontPageMenuViewController.swift in Sources */,
+				C5332A9C2604B51200842C66 /* Listener.swift in Sources */,
+				C5332AA52604B54D00842C66 /* Tools.swift in Sources */,
+				C5332A922604B48900842C66 /* MinimRestHolder.swift in Sources */,
+				C5332A6B2604B46800842C66 /* PickerViewController.swift in Sources */,
+				C5332A802604B46800842C66 /* FrontPageScene.swift in Sources */,
+				C5332A7A2604B46800842C66 /* LongNoteScene.swift in Sources */,
+				C5332A902604B48900842C66 /* NoteHolder.swift in Sources */,
+				C5332A782604B46800842C66 /* LongNoteViewController.swift in Sources */,
+				C5332A912604B48900842C66 /* TickHolder.swift in Sources */,
 				C558F16425E064940068D4DE /* ViewController.swift in Sources */,
+				C5332A8E2604B48900842C66 /* BarHolder.swift in Sources */,
+				C5332A8F2604B48900842C66 /* BouncyBall.swift in Sources */,
+				C5332A6D2604B46800842C66 /* SettingsViewController.swift in Sources */,
+				C5332A6E2604B46800842C66 /* RightNoteViewController.swift in Sources */,
 				C558F16025E064940068D4DE /* AppDelegate.swift in Sources */,
+				C5332AA92604B55600842C66 /* SlideInTransition.swift in Sources */,
+				C5332A742604B46800842C66 /* ScrollingScene.swift in Sources */,
+				C5332A8D2604B48800842C66 /* BarLine.swift in Sources */,
+				C5332A7B2604B46800842C66 /* FrontPageViewController.swift in Sources */,
+				C5332A9D2604B51200842C66 /* InstrumentStore.swift in Sources */,
+				C5332A6C2604B46800842C66 /* OptionsViewController.swift in Sources */,
+				C5332A9F2604B51200842C66 /* NoteChecker.swift in Sources */,
+				C5332A7D2604B46800842C66 /* InfoPageViewController.swift in Sources */,
+				C5332A812604B46800842C66 /* NoteSelectioViewController.swift in Sources */,
+				C558F17825E06E090068D4DE /* AudioController.swift in Sources */,
+				C5332A6F2604B46800842C66 /* RightNoteScene.swift in Sources */,
+				C5332AA02604B51200842C66 /* NoteController.swift in Sources */,
+				C5332A932604B48900842C66 /* StaveHolder.swift in Sources */,
+				C5332AA12604B51200842C66 /* Menu.swift in Sources */,
+				C5332AB12604B57300842C66 /* Data.swift in Sources */,
+				C5332A8C2604B48800842C66 /* ClefHolder.swift in Sources */,
 				C558F16225E064940068D4DE /* SceneDelegate.swift in Sources */,
+				C5332A752604B46800842C66 /* ScrollingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C558F16525E064940068D4DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C558F16625E064940068D4DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C558F16A25E064950068D4DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +541,7 @@
 		};
 		C558F17125E064950068D4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DD8E41AB5BD3B7574228CE /* Pods-AudioKitTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +561,7 @@
 		};
 		C558F17225E064950068D4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F942AB2576B0944EA4104A61 /* Pods-AudioKitTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
