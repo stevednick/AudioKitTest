@@ -125,10 +125,10 @@ class LongNoteScene: SKScene{
         tooLowText.isHidden = true
         tooHighText.isHidden = true
         
-        if noteChecker.getCurrentNote() < currentNoteNumber && noteChecker.getCurrentNote() != -100{
+        if noteChecker.currentNote < currentNoteNumber && noteChecker.currentNote != -100{
             tooLowText.isHidden = false
             //viewController.higherLabel.isHidden = false
-        }else if noteChecker.getCurrentNote() > currentNoteNumber{
+        }else if noteChecker.currentNote > currentNoteNumber{
             tooHighText.isHidden = false
             //viewController.lowerLabel.isHidden = false
         }

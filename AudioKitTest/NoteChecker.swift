@@ -25,9 +25,12 @@ class NoteChecker{
     var lastNoteHeard: Int = -100
     var lastNoteStartTime: TimeInterval = 100000000.0
     var intonationArray: [Double] = [Double]()
+    var currentNote: Int {
+        return lis.currentNote
+    }
     
     func checkNote(noteToCheck: Int) -> Bool{
-        let notePlayed = lis.getCurrentNote()
+        let notePlayed = lis.currentNote
         return getNoteIfValid(noteToAdd: notePlayed) == noteToCheck
     }
     
@@ -46,7 +49,7 @@ class NoteChecker{
     }
     
     func getCurrentNoteWithDuration(currentTime: TimeInterval) -> NoteWithDuration{
-        let currentNote = getNoteIfValid(noteToAdd: lis.getCurrentNote())
+        let currentNote = getNoteIfValid(noteToAdd: lis.currentNote)
         if currentNote != lastNoteHeard{
             lastNoteStartTime = currentTime
             lastNoteHeard = currentNote
@@ -58,7 +61,7 @@ class NoteChecker{
     }
     
     func getCurrentNoteWithDurationandIntonation(currentTime: TimeInterval) -> NoteWithDuration{
-        let mostRecentNote = lis.getNoteNumberWithIntonation()
+        let mostRecentNote = lis.currentNoteWithIntonation
         let currentNote = getNoteIfValid(noteToAdd: mostRecentNote.noteNum)
         if currentNote != lastNoteHeard{
             lastNoteStartTime = currentTime
@@ -77,10 +80,10 @@ class NoteChecker{
         let average = totalOfArray/Double(intonationArray.count)
         return average
     }
-    
-    func getCurrentNote() -> Int{
-        return lis.getCurrentNote()
-    }
+//
+//    func getCurrentNote() -> Int{
+//        return lis.currentNote
+//    }
     
     deinit {
         lis.shutDown()

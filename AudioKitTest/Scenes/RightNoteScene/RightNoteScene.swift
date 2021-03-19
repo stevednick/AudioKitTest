@@ -151,7 +151,7 @@ class RightNoteScene: SKScene { // Sort out how data is dealt with in this scene
     }
     
     func displayPlayedNote(){ // Sort this fucker out.
-        let note = noteChecker.getCurrentNote()
+        let note = noteChecker.currentNote
         if note > -100 && showCurrentNote{
             currentPlayedNote.isHidden = false
 
