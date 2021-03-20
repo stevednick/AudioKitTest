@@ -45,6 +45,7 @@
 		C5332AAC2604B56600842C66 /* Info.html in Resources */ = {isa = PBXBuildFile; fileRef = C5332AAB2604B56600842C66 /* Info.html */; };
 		C5332AB12604B57300842C66 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5332AAF2604B57300842C66 /* Data.swift */; };
 		C5332AB72604B6AC00842C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5332AB62604B6AC00842C66 /* Main.storyboard */; };
+		C53E92C92606836300504CE9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E92C82606836300504CE9 /* WebKit.framework */; };
 		C558F16025E064940068D4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F15F25E064940068D4DE /* AppDelegate.swift */; };
 		C558F16225E064940068D4DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558F16125E064940068D4DE /* SceneDelegate.swift */; };
 		C558F16925E064950068D4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C558F16825E064950068D4DE /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		C5332AAB2604B56600842C66 /* Info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Info.html; sourceTree = "<group>"; };
 		C5332AAF2604B57300842C66 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C5332AB62604B6AC00842C66 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C53E92C82606836300504CE9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C558F15C25E064940068D4DE /* AudioKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C558F15F25E064940068D4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C558F16125E064940068D4DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53E92C92606836300504CE9 /* WebKit.framework in Frameworks */,
 				28AF0FD8EBE3519E0F1B79AF /* Pods_AudioKitTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +287,7 @@
 		D7562B06984FDB732FAE8B2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C53E92C82606836300504CE9 /* WebKit.framework */,
 				8A8890D65FF20F615FE924E1 /* Pods_AudioKitTest.framework */,
 			);
 			name = Frameworks;
@@ -594,6 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4DPA4RA3P;
 				INFOPLIST_FILE = AudioKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,6 +619,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4DPA4RA3P;
 				INFOPLIST_FILE = AudioKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
