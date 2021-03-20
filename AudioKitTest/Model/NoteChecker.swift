@@ -78,10 +78,6 @@ class NoteChecker{
         let average = totalOfArray/Double(intonationArray.count)
         return average
     }
-//
-//    func getCurrentNote() -> Int{
-//        return lis.currentNote
-//    }
     
     deinit {
         lis.shutDown()
