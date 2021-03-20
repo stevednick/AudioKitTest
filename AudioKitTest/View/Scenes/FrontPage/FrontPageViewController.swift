@@ -8,6 +8,7 @@
 
 import UIKit
 import SpriteKit
+import AVKit
 
 protocol LoadedViewControllerDelegate: class{
     func reloadScreen()
@@ -99,9 +100,14 @@ class FrontPageViewController: UIViewController, LoadedViewControllerDelegate, F
     func startGame(m: Game){
         if m == Game.longNote{
             performSegue(withIdentifier: "toLongNote", sender: self)
+            checkMicAccess()
         }else if m == Game.fixed{
             performSegue(withIdentifier: "toRightNote", sender: self)
+            checkMicAccess()
         }else{
+            if m != Game.listeningOff {
+                checkMicAccess()
+            }
             self.mode = m
             performSegue(withIdentifier: "toScrolling", sender: self)
         }
@@ -252,5 +258,40 @@ extension FrontPageViewController: UIViewControllerTransitioningDelegate{
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         transition.isPresenting = false
         return transition
+    }
+
+//MARK: - Microphone Access Check
+    func checkMicAccess() {
+        switch AVCaptureDevice.authorizationStatus(for: .audio) {
+            case .authorized:
+                return
+            case .notDetermined: // The user has not yet been asked for camera access.
+                AVCaptureDevice.requestAccess(for: .audio) { granted in
+                    if granted {
+                        return
+                    } else {
+                        self.showMicAlert()
+                    }
+                    return
+                }
+            case .denied: // The user has previously denied access.
+                showMicAlert()
+                return
+
+            case .restricted: // The user can't grant access due to restrictions.
+                showMicAlert()
+                return
+            @unknown default:
+                fatalError("Wierd Mic Check Case")
+        }
+    }
+    
+    func showMicAlert() {
+        let alert = UIAlertController(title: "Error", message: "Please allow microphone usage from settings", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Open settings", style: .default, handler: { action in
+            UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
 }
