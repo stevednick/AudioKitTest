@@ -32,7 +32,7 @@ class OptionsViewController: UIViewController, SettingsPickerViewControllerDeleg
         let currentInstrument = InstrumentStore().getInstrumentName()
         let currentTransposition = InstrumentStore().getCurrentTranspositionName()
         instrumentLabel.text = "\(currentInstrument ) in \(currentTransposition )"
-        let clefs = InstrumentStore().getClefNames()
+        let clefs = InstrumentStore().clefNames
         if clefs[1] == "null"{
             let clefText = clefs[0].prefix(1).uppercased() + clefs[0].dropFirst() + " Clef Only"
             clefLabel.text = clefText

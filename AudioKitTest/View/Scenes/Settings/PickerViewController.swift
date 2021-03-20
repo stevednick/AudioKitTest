@@ -34,6 +34,7 @@ class PickerViewController: UIViewController{
     
     @IBAction func close(){
         instrumentStore.saveData()
+        instrumentStore.sendAnalytics()
         saveData()
         dismiss(animated: true, completion: nil)
      }

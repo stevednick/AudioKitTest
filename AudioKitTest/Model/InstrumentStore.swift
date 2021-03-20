@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FirebaseAnalytics
 
 struct Instrument{
     var name: String?
@@ -18,6 +19,11 @@ struct Instrument{
 
 class InstrumentStore{ // Could this be stored as a JSON? Yes it could.
     
+    var clefNames: [String] {
+        get {
+            return clefReturns[currentClef]
+        }
+    }
     
     let data = UserDefaults.standard
     
@@ -271,10 +277,10 @@ class InstrumentStore{ // Could this be stored as a JSON? Yes it could.
         }
         return clefs
     }
-    
-    func getClefNames() -> [String]{
-        return clefReturns[currentClef]
-    }
+//    
+//    func getClefNames() -> [String]{
+//        return clefReturns[currentClef]
+//    }
     
     func changeInstrument(inst: Int){
         currentInstrument = inst
@@ -295,5 +301,11 @@ class InstrumentStore{ // Could this be stored as a JSON? Yes it could.
     
     deinit {
         saveData()
+    }
+    
+    //MARK: - Send Analytics
+    
+    func sendAnalytics(){
+        Analytics.logEvent("instrumentChanged", parameters: ["name": getInstrumentName(), "transposition": getCurrentTranspositionName(), "Clefs": "\(getClefs()[0]), \(getClefs()[1])"])
     }
 }

@@ -8,6 +8,7 @@
 
 import Foundation
 import SpriteKit
+import FirebaseAnalytics
 
 enum NoteState{
     case waiting
@@ -717,6 +718,7 @@ class ScrollingScene: SKScene, SKPhysicsContactDelegate{ // Sort out cameranode 
         viewController.totalLabel.text = totalScore.forDisplay()
         viewController.bestStreakLabel.text = "\(bestStreak)"
         viewController.showFinishScreen()
+        Analytics.logEvent("gameFinished", parameters: ["gameMode": gameMode.rawValue ,"score": totalScore, "streak": bestStreak])
     }
     
     func checkBlitzHighScore() -> Bool{
